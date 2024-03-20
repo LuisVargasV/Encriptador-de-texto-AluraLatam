@@ -1,0 +1,63 @@
+header{
+text-align: center;
+font-style: bold;
+font-optical-sizing: auto;
+font-weight: 300;
+color: antiquewhite;
+
+}
+.introduccion{
+    font-size: 20px;
+    font-style: italic;
+}
+
+body{
+    text-align: center;
+    background: url(imagenes/fondo.jpg);
+    padding: 40px;
+}
+
+.cuadros{
+    width:940px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.cuadros li{
+display: inline-block;
+text-align: center;
+
+}
+
+.AreaTexto{
+width: 300px;
+height: 300px;
+border-color: yellowgreen;
+border-radius: 10px;
+}
+
+.mensaje{
+    width: 300px;
+    height: 300px;
+    border-color: yellowgreen;
+    border-radius: 10px;
+    }
+
+.btn{
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.btnEncriptador:hover{
+    background-color: yellowgreen;
+    padding: 5px;
+}
+
+.btnDesencriptador:hover{
+    background-color:yellowgreen;
+    padding: 5px;
+}
+
+.copyright{
+    color: yellowgreen;
+}

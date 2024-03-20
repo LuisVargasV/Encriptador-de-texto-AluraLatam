@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto</title>
+</head>
+
+<header>
+    <h1 class="titulo">Encriptación de Mensajes</h1>
+    <p class="introduccion">Inserta tu mensaje a encriptar/desencriptar en los siguientes cuadros de texto y presiona el botón correspondiente:</p>
+</header>
+
+<body>
+    
+<main>
+
+    <ul class="cuadros">
+             <li>
+               <textarea id="TextoEncriptado" class="AreaTexto" placeholder="Texto a encriptar/desencriptar"></textarea>
+            </li>
+
+            <li>
+                 <button class="btnEncriptador" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btnDesencriptador" onclick="btnDesencriptar()">Desencriptar</button>
+            </li>
+
+             <li> 
+                    <textarea id="campo-mensaje" class="mensaje" placeholder="Texto encriptado/desencriptado"></textarea>
+              </li>
+    </ul>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy Copyright Encriptador Alura - 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
